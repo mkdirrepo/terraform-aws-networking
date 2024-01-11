@@ -32,7 +32,7 @@ locals {
           from        = 3306
           to          = 3306
           protocol    = "tcp"
-          cidr_blocks = ["var.vpc_cidr"]
+          cidr_blocks = ["10.16.18.0/25"]
         }
       }
     }
